@@ -1,0 +1,37 @@
+{
+  "name": "livescript-ide",
+  "version": "0.0.1",
+  "description": "LiveScript IDE package for Atom editor",
+  "main": "lib/index.js",
+  "scripts": {
+    "develop": "./node_modules/.bin/lsc dev/watch.ls",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bartosz-m/livescript-ide.git"
+  },
+  "keywords": [
+    "livescript",
+    "ide"
+  ],
+  "author": "Bartosz Matuszewski <bartosz.wojciech.matuszewski@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://gitlab.com/livescript-ide/ide/issues"
+  },
+  "homepage": "https://gitlab.com/livescript-ide/ide#README",
+  "devDependencies": {
+    "chokidar": "^1.7.0",
+    "fs-extra": "^4.0.1",
+    "livescript-async": "^1.5.2"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.6.0"
+  },
+  "package-deps": [
+    "livescript-ide-preview",
+    "livescript-ide-timetracker",
+    "livescript-provider"
+  ]
+}
