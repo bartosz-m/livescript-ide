@@ -32,6 +32,6 @@
   "package-deps": [
     "livescript-ide-preview",
     "livescript-ide-timetracker",
-    "livescript-provider"
+    "ide-livescript"
   ]
 }
